@@ -2,7 +2,8 @@
 #include <iostream>
 #include "Vehicule.hpp"
 
-void presenter(Vehicule v)  //Présente le véhicule passé en argument
+//void presenter(Vehicule v)  //Présente le véhicule passé en argument
+void presenter(Vehicule const& v)  //Présente le véhicule passé en argument
 {
     v.affiche();
 }
