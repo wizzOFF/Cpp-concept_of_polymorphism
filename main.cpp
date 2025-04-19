@@ -26,6 +26,8 @@ int main()
 
     v->affiche();  //On affiche "Ceci est une voiture."
 
+    delete v;      //Et on détruit la voiture
+
     /*
     Vehicule v;
     presenter(v);
